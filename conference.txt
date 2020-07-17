@@ -1,0 +1,43 @@
+conference month
+NIPS June
+ICML Jan
+KDD Feb
+WWW Oct
+WSDM Aug
+AAAI Aug-Sep
+UAI Feb-March
+SDM Oct
+ICDM June
+ECML-PKDD March
+SIGIR Jan
+IJCAI Feb
+ICLR Sep
+AISTATS Sep-Oct
+ECIR Oct
+ECAI Nov
+IJCNN Jan
+PAKDD Nov
+CIKM May
+ICWSM May
+INLG August
+
+FAT* Aug
+AIES Nov
+
+ACL Mar
+EMNLP-IJCNLP May
+NAACL Dec
+EACL Mar
+COLING June
+CONLL Mar
+AACL July
+AKBC Jan-Feb
+LREC Dec
+RANLP May
+CICLING Dec
+
+AIED Abstract Feb 
+EDM March 
+SIGCSE Jan
+IAAI Aug-Sep
+Learning @ Scale Feb

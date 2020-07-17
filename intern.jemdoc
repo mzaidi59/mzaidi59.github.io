@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{intern.html}, nofooter
+
+= Internships
+
+== [https://research.samsung.com/ Samsung Research, Seoul, South Korea]
+I worked as a Research Intern at the Question Answering Team in Language Understanding Lab. We built a system to generate verbose non-span based answers using words from out of vocabulary. We participated in Microsoft's Ms Marco Intermediate challenge and reached the top of the leaderboard during the internship. Results published on Samsung Newsroom [https://news.samsung.com/global/samsung-electronics-wins-at-two-top-global-ai-machine-reading-comprehension-challenges website].
+
+== [https://www.iitk.ac.in/dord/isro/ ISRO-IITk Space Cell, Kanpur, India]
+I worked on to incorporate the bounded variation property of images/videos into the Space Time Trellis Codes. We designed a hierarchichal decoder to jointly optjmize on both maximum likelihood and total variation metric. The proposed joint algorithm improved the quality of reconstructed media. Work was [https://ieeexplore.ieee.org/document/9079801 published] in IEEE Access Journal (Volume: 8), April 2020
+
+== [https://www.pocketfm.in/ Pocket FM, Bangalore, India]
+I worked for a startup which is a Hindi(Indian language) podcast app. My work included various projects like search optmization, recommendation system, efficient/automatic error logging and reporting.
+- *Machine Learning* \n
+	-- Made the search language agnostic between hindi, english \& hinglish semantically and syntactically. 
+	-- Used ALS Matrix factorization on RDD database to build recommendation system for the App 
+- *Backend Development*
+	-- Deployed a centralized back-end system(ELK stack) to automate the process of monitoring error logs
+	-- Deployed a shipped, filter, indexing framework, dashboards and a mechanism to report burst error alerts
