@@ -2,10 +2,10 @@
 = Publications
 
 == Conference/Workshop Publications
-- *End-to-End Simultaneous Translation System for IWSLT2020 Using Modality Agnostic Meta-Learning*, \n Houjeung Han, *Mohd Abbas Zaidi*, Sathish Indurthi, Nikhil Kumar, Beomseok Lee, Sangha Kim, \n Accepted at [https://acl2020.org ACL 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.5.pdf Paper]\]
-- *End-to-End Offline Speech Translation System for IWSLT 2020 using Modality Agnostic Meta-Learning*, \n  Nikhil Kumar, Beomseok Lee, Sathish Indurthi, Houjeung Han, *Mohd Abbas Zaidi*, Sangha Kim \n Accepted at [https://acl2020.org ACL 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.7.pdf Paper]\]
+- *End-to-End Simultaneous Translation System for IWSLT2020 Using Modality Agnostic Meta-Learning*, \n Houjeung Han, *Mohd Abbas Zaidi*, Sathish Indurthi, Nikhil Kumar, Beomseok Lee, Sangha Kim, \n Accepted at [https://acl2020.org ACL-IWSLT 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.5.pdf Paper]\]
+- *End-to-End Offline Speech Translation System for IWSLT 2020 using Modality Agnostic Meta-Learning*, \n  Nikhil Kumar, Beomseok Lee, Sathish Indurthi, Houjeung Han, *Mohd Abbas Zaidi*, Sangha Kim \n Accepted at [https://acl2020.org ACL-IWSLT 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.7.pdf Paper]\]
 - *Task Aware Multi-Task Learning for Speech to Text Tasks*, \n  Sathish Indurthi{{<sup>*</sup>}}, *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Nikhil Kumar Lakumarapu, Beomseok Lee, Hyojung Han, Seokchan Ahn, Sangha Kim, Chanwoo Kim, Inchul Hwang \n Accepted at [https://www.2021.ieeeicassp.org/ ICASSP 2021]
-- *Faster Re-translation Using Non-Autoregressive Model For Simultaneous Neural Machine Translation*, \n  Hyojung Han, Sathish Indurthi, *Mohd Abbas Zaidi*, Nikhil Kumar Lakumarapu, Beomseok Lee, Sangha Kim, Chanwoo Kim, Inchul Hwang \n Submitted to [https://2021.aclweb.org/ ACL 2021] \[[https://arxiv.org/abs/2012.14681 Paper]\]
+- *Faster Re-translation Using Non-Autoregressive Model For Simultaneous Neural Machine Translation*, \n  Hyojung Han, Sathish Indurthi, *Mohd Abbas Zaidi*, Nikhil Kumar Lakumarapu, Beomseok Lee, Sangha Kim, Chanwoo Kim, Inchul Hwang \n [Arxiv version] \[[https://arxiv.org/abs/2012.14681 Paper]\]
 
 == Journal Publications
 - *Hierarchical Trellis Based Decoder for Total Variation Sequence Detection (TVSD) in Space-Time Trellis Coded (STTC) Wireless Image/Video Communication* \n Ankit Kudeshia, *Mohd Abbas Zaidi*, Aditya Jagannatham, Chandra Prakash \n Published at [https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639 IEEE Access Journal] \[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9079801 Paper]\] 
