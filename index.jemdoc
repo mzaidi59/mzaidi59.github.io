@@ -5,23 +5,30 @@
 {}{img_left}{images/profile.png}{Picture}{180}{200}{}
 *Mohd Abbas Zaidi* \n
 /Research Engineer/ \n
-NLP Lab, \n
-[https://research.samsung.com/ Samsung RnD] Seoul \n
-[docs/resume.pdf CV], [https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ  Scholar]\n \n
-
+NLP Lab,
+[https://research.samsung.com/ Samsung Research] Seoul \n
+[docs/resume.pdf View CV] \n
+[https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ  Google Scholar]/[https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 Semantic Scholar] \n
+Read my full bio [about.html here]
 
 ~~~
 \n \n 
-Welcome to my homepage. I wonder what brings you here! 
+Welcome to my homepage :) \n
+I wonder what brings you here! 
 Click on the links on the left side to navigate other pages.
 \n
 
 == About Me
 
-I am a Research Engineer at the Natural Language Processing(NLP) Lab, [https://research.samsung.com/ Samsung Research] Headquarters, Seoul. I have been working in the field of Natural Language Processing. 
-\n\n
-Previously, I completed my undergraduate degree with a major in Electrical Engineering and minors in [https://www.cse.iitk.ac.in/ Computer Science](Machine Learning) and [https://www.cgs.iitk.ac.in/ Cognitive Sciences] from [https://www.iitk.ac.in/IIT Kanpur]. I was fortunate enough to work at the Indian Space Research Organization(ISRO)- IITk Space cell with Prof. Aditya Jagannatham developing improved wireless transmission decoder for Space time trellis codes. I also worked with Prof. Ketan Rajawat on removing the sample bottleneck constraint from Online Gaussian Processes.
-\n \n
-I am interested in the study of languages from various perspectives such as Machine Learning and Cognitive Sciences. \n 
+Currently, my work is focussed towards the Simultaneous Speech Translation task. If you are interested to know more about it, you can have a look at the initial parts of my recent publications. Feel free to [contact.html contact] me for any queries/discussions \n
+Read my bio [about.html here] 
 
-You can find my resume [docs/cv.pdf here], my semantic scholar page [https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 here] and my google scholar page [https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ here].
+= Publications
+- \[Oct 2021\] - *Decision Attentive Regularization to Improve Simultaneous Speech Translation Systems*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Sathish Indurthi{{<sup>*</sup>}}, Nikhil Kumar, Sangha Kim, Chanwoo Kim \n Under review at [https://www.2022.ieeeicassp.org/ ICASSP 2022]
+- \[Sep 2021\] - *Infusing Future Information into Monotonic Attention Through Language
+  Models*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Sathish Indurthi{{<sup>*</sup>}}, Beomseok Lee, Nikhil Kumar, Sangha Kim \n Under review at [https://iclr.cc/ ICLR 2022]  \[[https://arxiv.org/abs/2109.03121 Paper(arxiv)]\]
+- \[Jan 2021\] - *Task Aware Multi-Task Learning for Speech to Text Tasks*, \n  Sathish Indurthi{{<sup>*</sup>}}, *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Nikhil Kumar, Beomseok Lee, Hyojung Han, Seokchan Ahn, Sangha Kim, Chanwoo Kim, Inchul Hwang \n Accepted at [https://www.2021.ieeeicassp.org/ ICASSP 2021]
+- \[Jan 2021\] - *Faster Re-translation Using Non-Autoregressive Model For Simultaneous Neural Machine Translation*, \n  Hyojung Han, Sathish Indurthi, *Mohd Abbas Zaidi*, Nikhil Kumar, Beomseok Lee, Sangha Kim, Chanwoo Kim, Inchul Hwang \n \[[https://arxiv.org/abs/2012.14681 Paper(arxiv)]\]
+- \[Jul 2020\] - *End-to-End Simultaneous Translation System for IWSLT2020 Using Modality Agnostic Meta-Learning*, \n Houjeung Han, *Mohd Abbas Zaidi*, Sathish Indurthi, Nikhil Kumar, Beomseok Lee, Sangha Kim, \n Accepted at [https://acl2020.org ACL-IWSLT 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.5.pdf Paper]\]
+- \[July 2020\] - *End-to-End Offline Speech Translation System for IWSLT 2020 using Modality Agnostic Meta-Learning*, \n  Nikhil Kumar, Beomseok Lee, Sathish Indurthi, Houjeung Han, *Mohd Abbas Zaidi*, Sangha Kim \n Accepted at [https://acl2020.org ACL-IWSLT 2020] \[[https://www.aclweb.org/anthology/2020.iwslt-1.7.pdf Paper]\]
+- \[May 2020\] - *Hierarchical Trellis Based Decoder for Total Variation Sequence Detection (TVSD) in Space-Time Trellis Coded (STTC) Wireless Image/Video Communication* \n Ankit Kudeshia, *Mohd Abbas Zaidi*, Aditya Jagannatham, Chandra Prakash \n Published at [https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639 IEEE Access Journal] \[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9079801 Paper]\] 

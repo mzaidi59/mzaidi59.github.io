@@ -6,3 +6,4 @@ python2.7 jemdoc.py -c analytics.conf awards
 python2.7 jemdoc.py -c analytics.conf service
 python2.7 jemdoc.py -c analytics.conf contact
 python2.7 jemdoc.py -c analytics.conf teaching
+python2.7 jemdoc.py -c analytics.conf about
