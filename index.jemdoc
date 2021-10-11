@@ -3,27 +3,23 @@
 
 ~~~
 {}{img_left}{images/profile.png}{Picture}{180}{200}{}
-*Mohd Abbas Zaidi* \n
+
 /Research Engineer/ \n
 NLP Lab,
 [https://research.samsung.com/ Samsung Research] Seoul \n
-[docs/resume.pdf View CV] \n
-[https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ  Google Scholar]/[https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 Semantic Scholar] \n
-Read my full bio [about.html here]
-
-~~~
-\n \n 
+Links : [docs/resume.pdf CV], [about.html Bio] \n
 Welcome to my homepage :) \n
-I wonder what brings you here! 
-Click on the links on the left side to navigate other pages.
-\n
+Use links on the left to navigate other pages.
+~~~
 
 == About Me
 
-Currently, my work is focussed towards the Simultaneous Speech Translation task. If you are interested to know more about it, you can have a look at the initial parts of my recent publications. Feel free to [contact.html contact] me for any queries/discussions \n
-Read my bio [about.html here] 
+As a researcher at Samsung, my work is focussed towards the [https://iwslt.org/2021/simultaneous simultaneous speech translation] task. \n
+If you are interested to know more about my work, you can have a look at the initial parts of my recent publications. \n
+Feel free to [contact.html contact] me for any queries/discussions.
 
 = Publications
+Links: [https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ  Google Scholar]/[https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 Semantic Scholar] \n
 - \[Oct 2021\] - *Decision Attentive Regularization to Improve Simultaneous Speech Translation Systems*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Sathish Indurthi{{<sup>*</sup>}}, Nikhil Kumar, Sangha Kim, Chanwoo Kim \n Under review at [https://www.2022.ieeeicassp.org/ ICASSP 2022]
 - \[Sep 2021\] - *Infusing Future Information into Monotonic Attention Through Language
   Models*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Sathish Indurthi{{<sup>*</sup>}}, Beomseok Lee, Nikhil Kumar, Sangha Kim \n Under review at [https://iclr.cc/ ICLR 2022]  \[[https://arxiv.org/abs/2109.03121 Paper(arxiv)]\]
