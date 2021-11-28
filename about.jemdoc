@@ -1,9 +1,11 @@
 # jemdoc: menu{MENU}{about.html}, nofooter
 = About Me
 
-I am a Research Engineer at the Natural Language Processing(NLP) Lab, [https://research.samsung.com/ Samsung Research], Seoul. I have been working in the Machine Translation group. Specifically, I have been working on the Simultaneous Speech Translation task. 
-\n\n
-Previously, I completed my undergraduate degree with a major in Electrical Engineering and minors in [https://www.cse.iitk.ac.in/ Computer Science](Machine Learning) and [https://www.cgs.iitk.ac.in/ Cognitive Sciences] from [https://www.iitk.ac.in/IIT Kanpur]. I was fortunate enough to work at the Indian Space Research Organization(ISRO)- IITk Space cell with [https://home.iitk.ac.in/~adityaj/ Prof. Aditya Jagannatham] developing improved wireless transmission decoder for Space time trellis codes. I also worked with [https://home.iitk.ac.in/~ketan/ Prof. Ketan Rajawat] on removing the sample bottleneck constraint from Online Gaussian Processes.
+I am a Research Engineer at the Natural Language Processing(NLP) Lab, [https://research.samsung.com/ Samsung Research], Seoul. 
+I am currently working in the Neural Information Retrieval group. 
+I have worked on a wide range of NLP tasks which include: \n
+  Automatic Speech Recognition, Machine Translation (Text and Speech), Text to Speech, Question Answering, and Neural Information Retrieval. \n
+ Recently, my research work has been focussed towards the [https://iwslt.org/2021/simultaneous simultaneous speech translation] task. \n
+\n
+Previously, I completed my undergraduate degree with a major in Electrical Engineering and minors in [https://www.cse.iitk.ac.in/ Computer Science](Machine Learning) and [https://www.cgs.iitk.ac.in/ Cognitive Sciences] from [https://www.iitk.ac.in/IIT Kanpur]. I was fortunate enough to work at the Indian Space Research Organization(ISRO)- IITk Space cell with [https://home.iitk.ac.in/~adityaj/ Prof. Aditya Jagannatham] developing improved [https://ieeexplore.ieee.org/document/9079801 wireless transmission decoder] for Space time trellis codes. I also worked with [https://home.iitk.ac.in/~ketan/ Prof. Ketan Rajawat] in the field of Online Gaussian Processes [https://mzaidi59.github.io/docs/ugp_report.pdf report].
 \n \n
-
-You can find my resume [docs/resume.pdf here], my semantic scholar page [https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 here] and my google scholar page [https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ here].
