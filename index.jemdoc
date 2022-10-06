@@ -2,14 +2,14 @@
 = Mohd Abbas Zaidi
 
 ~~~
-{}{img_left}{images/profile.png}{Picture}{180}{200}{}
+# {}{img_left}{images/profile.png}{Picture}{180}{200}{}
 
 /Research Engineer/ \n
-NLP Lab,
+@ NLP lab,
 [https://research.samsung.com/ Samsung Research] Seoul \n
+UG at IIT Kanpur \n
 Links : [docs/resume.pdf CV], [https://www.linkedin.com/in/mazaidi/ Linkedin] \n
 [about.html Bio], [https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 Scholar] \n
-Welcome to my homepage :) \n
 Use links on the left to navigate other pages.
 ~~~
 
@@ -23,7 +23,8 @@ Feel free to [contact.html contact] me for any queries/discussions.
 
 = Publications
 Links: [https://scholar.google.com/citations?authuser=1&user=i_cSaKgAAAAJ  Google Scholar]/[https://www.semanticscholar.org/author/Mohd-Abbas-Zaidi/1693370372 Semantic Scholar] \n
-- \[Oct 2021\] - *Decision Attentive Regularization to Improve Simultaneous Speech Translation Systems*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Beomseok Lee{{<sup>*</sup>}}, Sangha Kim, Chanwoo Kim \n Accepted at  [https://interspeech2022.org/ Interspeech 2022] \[[https://arxiv.org/abs/2110.15729 Paper(arxiv)]\]
+- \[Oct 2022\] - *FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering*, \n  Akhil Kedia, *Mohd Abbas Zaidi*, Haejun Lee \n Accepted at  [https://2022.emnlp.org/ EMNLP 2022] \[arxiv coming soon\]
+- \[Oct 2021\] - *Cross-Modal Decision Regularization for Simultaneous Speech Translation*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Beomseok Lee{{<sup>*</sup>}}, Sangha Kim, Chanwoo Kim \n Accepted at  [https://interspeech2022.org/ Interspeech 2022 (Oral)] \[[https://www.isca-speech.org/archive/interspeech_2022/zaidi22_interspeech.html Paper(IS version)]\] \[[https://arxiv.org/abs/2110.15729 Paper(arxiv)]\]
 - \[Sep 2021\] - *Infusing Future Information into Monotonic Attention Through Language
   Models*, \n  *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Sathish Indurthi{{<sup>*</sup>}}, Beomseok Lee, Nikhil Kumar, Sangha Kim \n  Accepted at  [https://2022.naacl.org/ NAACL 2022] \[[https://arxiv.org/abs/2109.03121 Paper(arxiv)]\]
 - \[Jan 2021\] - *Task Aware Multi-Task Learning for Speech to Text Tasks*, \n  Sathish Indurthi{{<sup>*</sup>}}, *Mohd Abbas Zaidi*{{<sup>*</sup>}}, Nikhil Kumar, Beomseok Lee, Hyojung Han, Seokchan Ahn, Sangha Kim, Chanwoo Kim, Inchul Hwang \n Accepted at [https://www.2021.ieeeicassp.org/ ICASSP 2021]
