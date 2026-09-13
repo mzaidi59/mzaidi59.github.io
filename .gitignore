@@ -1,0 +1,14 @@
+# Deployment scripts
+publish.sh
+
+# README (not needed for public GitHub Pages site)
+README.md
+
+# Windows zone identifier files
+__pycache__/
+*.pdf:Zone.Identifier
+*.html:Zone.Identifier
+*.png:Zone.Identifier
+*.jpg:Zone.Identifier
+*.svg:Zone.Identifier
+.DS_Store
