@@ -266,7 +266,7 @@
       <p class="paper-meta">ICML 2024</p>
       <h3>Transformers Get Stable: An End-to-End Signal Propagation Theory for Language Models</h3>
       <p class="authors">Akhil Kedia*, <strong>Mohd Abbas Zaidi*</strong>, Sushil Khyalia*, Jungho Jung, Harshith Goka, Haejun Lee</p>
-      <img src="images/transformers-get-stable.svg" alt="Figure from the Transformers Get Stable paper" onerror="this.remove()">
+      <img src="images/TGS.png" alt="Figure from the Transformers Get Stable paper" onerror="this.remove()">
       <p class="desc">Transformers are hard to scale in depth: stack enough layers and training runs into vanishing or exploding gradients, rank collapse, and attention scores that saturate. We derive a unified theory for how the moments of the forward and backward signal evolve layer by layer through a transformer, which lets us pin down exactly where and why these failure modes appear. From that theory we build DeepScaleLM, an initialization and scaling scheme that keeps output and gradient moments constant with depth. It makes training genuinely deep transformers &mdash; up to 1000 layers &mdash; stable, and models trained this way outperform shallower ones with the same parameter count on language modeling, speech translation, and image classification.</p>
       <p class="paper-links">
         <a href="https://arxiv.org/abs/2403.09635">Paper (arXiv)</a>
@@ -279,7 +279,7 @@
       <p class="paper-meta">EMNLP 2022</p>
       <h3>FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering</h3>
       <p class="authors">A. Kedia, <strong>M. A. Zaidi</strong>, H. Lee</p>
-      <img src="images/fie.png" alt="Figure from the FiE paper" onerror="this.remove()">
+      <img src="images/fie_diagram.jpg" alt="Figure from the FiE paper" onerror="this.remove()">
       <p class="desc">Open-domain QA systems typically retrieve a set of candidate passages and score each one mostly in isolation, so the model never gets a real global view of how evidence across documents relates. FiE fuses information from multiple retrieved documents early, inside the encoder itself, so the model builds one shared probability space over all the evidence rather than reconciling separate per-document scores after the fact. This gives more consistent, better-calibrated answer predictions when the right evidence is spread across several passages.</p>
       <p class="paper-links">
         <a href="https://arxiv.org/abs/2211.10147">Paper (arXiv)</a>
@@ -291,7 +291,7 @@
       <p class="paper-meta">Interspeech 2022 &middot; Oral</p>
       <h3>Cross-Modal Decision Regularization for Simultaneous Speech Translation</h3>
       <p class="authors"><strong>M. A. Zaidi*</strong>, B. Lee*, S. Kim, C. Kim</p>
-      <img src="images/cross-modal.png" alt="Figure from the Cross-Modal Decision Regularization paper" onerror="this.remove()">
+      <img src="images/CMDRe.png" alt="Figure from the Cross-Modal Decision Regularization paper" onerror="this.remove()">
       <p class="desc">Simultaneous speech translation has to keep deciding, word by word, whether to READ more of the incoming audio or WRITE out the next word of the translation &mdash; and getting that call wrong trades off latency against quality. This work regularizes those READ/WRITE decisions using cues from a simultaneous text translation model, transferring the more reliable segmentation signal that text models can learn to the speech setting. The result is a better latency&ndash;quality trade-off than training the speech policy on its own.</p>
       <p class="paper-links">
         <a href="https://arxiv.org/abs/2110.15729">Paper (arXiv)</a>
@@ -303,7 +303,7 @@
       <p class="paper-meta">ICASSP 2021</p>
       <h3>Task Aware Multi-Task Learning for Speech to Text Tasks</h3>
       <p class="authors">S. Indurthi*, <strong>M. A. Zaidi*</strong>, N. Kumar, B. Lee, H. Han, S. Ahn, S. Kim, C. Kim, I. Hwang</p>
-      <img src="images/multi-task.png" alt="Figure from the Task Aware Multi-Task Learning paper" onerror="this.remove()">
+      <img src="images/taml.png" alt="Figure from the Task Aware Multi-Task Learning paper" onerror="this.remove()">
       <p class="desc">A single encoder-decoder can in principle learn ASR, speech translation, and machine translation together, but naively multi-tasking these tends to blur the task-specific behavior each one needs. We add a task modulation network that conditions the shared model on which task it's currently solving, letting one network learn all three jointly without the tasks interfering with each other, and without the cost of training and serving separate models.</p>
       <p class="paper-links">
         <a href="https://ieeexplore.ieee.org/document/9414703/">ICASSP</a>
