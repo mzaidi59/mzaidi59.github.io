@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohd Abbas Zaidi</title>
+<meta name="description" content="Mohd Abbas Zaidi — Research Engineer, NLP Lab, Samsung Research. Working on LLM pretraining, knowledge distillation, and signal propagation theory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LL8NSF848Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LL8NSF848Z');
+</script>
+
+<style>
+  :root{
+    --paper:#fcfcfa;
+    --ink:#1b1b1a;
+    --muted:#5c5d5a;
+    --line:#dfded8;
+    --accent:#2d5a7b;
+    --accent-dim:#5c7f95;
+  }
+
+  *{box-sizing:border-box;}
+
+  html{-webkit-text-size-adjust:100%;}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Source Serif 4", Georgia, serif;
+    font-size:18px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px;}
+  a:hover{color:var(--ink);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:4.5rem 1.5rem 5rem;
+  }
+
+  header.hero h1{
+    font-size:2.15rem;
+    font-weight:600;
+    margin:0 0 0.3rem;
+    letter-spacing:-0.01em;
+  }
+
+  .role{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:1.02rem;
+    color:var(--muted);
+    margin:0 0 1.1rem;
+  }
+
+  .tagline{
+    max-width:34em;
+    margin:0 0 1.5rem;
+  }
+
+  .links{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.95rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:0 0.9rem;
+    padding:0;
+    margin:0;
+    list-style:none;
+  }
+
+  .links li{position:relative;}
+  .links li + li{padding-left:0.9rem;border-left:1px solid var(--line);}
+
+  section{margin-top:3.4rem;}
+
+  h2{
+    font-size:1.3rem;
+    font-weight:600;
+    margin:0 0 1.1rem;
+    padding-bottom:0.55rem;
+    border-bottom:1px solid var(--line);
+  }
+
+  .about p{margin:0 0 1rem;}
+  .about p:last-child{margin-bottom:0;}
+
+  /* Featured research */
+  .paper{
+    padding:1.6rem 0;
+  }
+  .paper + .paper{border-top:1px solid var(--line);}
+
+  .paper-meta{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:0.8rem;
+    color:var(--accent-dim);
+    text-transform:none;
+    margin:0 0 0.35rem;
+  }
+
+  .paper h3{
+    font-size:1.18rem;
+    font-weight:600;
+    margin:0 0 0.5rem;
+    line-height:1.35;
+  }
+
+  .paper img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0.9rem 0 1rem;
+    border:1px solid var(--line);
+  }
+
+  .paper p.desc{margin:0 0 0.7rem;color:var(--ink);}
+  .paper p.authors{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.88rem;
+    color:var(--muted);
+    margin:0 0 0.7rem;
+  }
+
+  .paper-links{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.92rem;
+    display:flex;
+    gap:1rem;
+  }
+
+  .current-focus{
+    margin-top:1.8rem;
+    padding-top:1.6rem;
+    border-top:1px solid var(--line);
+    font-size:0.98rem;
+    color:var(--muted);
+  }
+  .current-focus strong{color:var(--ink);font-weight:600;}
+
+  /* Publications list */
+  .pub-list{list-style:none;margin:0;padding:0;}
+  .pub{
+    display:flex;
+    gap:1.1rem;
+    padding:0.95rem 0;
+  }
+  .pub + .pub{border-top:1px solid var(--line);}
+
+  .pub-year{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:0.85rem;
+    color:var(--muted);
+    flex:0 0 3.2rem;
+    padding-top:0.15rem;
+  }
+
+  .pub-thumb{
+    flex:0 0 84px;
+  }
+  .pub-thumb img{
+    width:84px;
+    height:84px;
+    object-fit:cover;
+    display:block;
+    border:1px solid var(--line);
+  }
+
+  .pub-body{flex:1;min-width:0;}
+  .pub-body h4{
+    font-size:1.02rem;
+    font-weight:600;
+    margin:0 0 0.25rem;
+    line-height:1.35;
+  }
+  .pub-body .authors{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.86rem;
+    color:var(--muted);
+    margin:0 0 0.3rem;
+  }
+  .pub-body .venue{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.86rem;
+    color:var(--muted);
+    margin:0 0 0.35rem;
+  }
+  .pub-body .pub-links{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.86rem;
+    display:flex;
+    gap:0.85rem;
+  }
+
+  footer{
+    margin-top:4rem;
+    padding-top:1.6rem;
+    border-top:1px solid var(--line);
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.88rem;
+    color:var(--muted);
+  }
+  footer a{color:var(--muted);}
+  footer a:hover{color:var(--accent);}
+
+  @media (max-width:520px){
+    body{font-size:16.5px;}
+    header.hero h1{font-size:1.75rem;}
+    .pub{flex-direction:column;gap:0.5rem;}
+    .pub-thumb{order:-1;}
+    .pub-thumb img{width:100%;height:auto;max-height:160px;}
+    .pub-year{flex:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Mohd Abbas Zaidi</h1>
+    <p class="role">Research Engineer, NLP Lab &mdash; Samsung Research, Seoul</p>
+    <p class="tagline">I work on the training dynamics of large language and multimodal models: how they learn, where that process becomes unstable or wasteful, and how to fix it &mdash; through knowledge distillation, signal propagation theory, and tokenization.</p>
+    <ul class="links">
+      <li><a href="docs/resume.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=i_cSaKgAAAAJ">Google Scholar</a></li>
+      <li><a href="https://www.linkedin.com/in/mazaidi/">LinkedIn</a></li>
+    </ul>
+  </header>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>I'm a research engineer at Samsung Research's NLP Lab in Seoul. I work on training large language models and on-device models for Galaxy AI  &mdash; running training jobs, reading evaluation curves, and figuring out why certain training choices help or hurt.</p>
+    <p>Lately that's meant taking deep dives into understanding and simplifying tokenizers, knowledge distillation, and signal propagation in deep transformers. I did a Master's in Computer Science at Georgia Tech, and studied Electrical Engineering (minor in CS and Cognitive Science) at IIT Kanpur.</p>
+  </section>
+
+  <section class="research">
+    <h2>Featured research</h2>
+
+    <article class="paper">
+      <p class="paper-meta">ACL 2025 &middot; Oral</p>
+      <h3>Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs</h3>
+      <p class="authors">Anshumann*, <strong>Mohd Abbas Zaidi*</strong>, Akhil Kedia*, Jinwoo Ahn, Taehwak Kwon, Kangwook Lee, Haejun Lee, Joohyung Lee</p>
+      <img src="images/sparse-logit-sampling.png" alt="Figure from the Sparse Logit Sampling paper" onerror="this.remove()">
+      <p class="desc">Knowledge distillation is much cheaper if you can pre-compute and cache the teacher's output logits once, rather than running the teacher live during every student training step. The obvious way to keep that cache small &mdash; storing only the teacher's top-K probabilities per token &mdash; turns out to be biased: it systematically distorts the target distribution the student learns from, hurting both accuracy and calibration. We prove this formally, then propose an importance-sampling scheme that gives the student an unbiased estimate of the full teacher distribution while storing as few as 12 logits per token. It preserves the gradient in expectation and matches full-distribution distillation quality at a fraction of the storage and compute cost, making distillation practical at pretraining scale.</p>
+      <p class="paper-links">
+        <a href="https://arxiv.org/abs/2503.16870">Paper (arXiv)</a>
+        <a href="https://aclanthology.org/2025.acl-long.885/">ACL Anthology</a>
+        <a href="https://github.com/akhilkedia/RandomSamplingKD">Code</a>
+      </p>
+    </article>
+
+    <article class="paper">
+      <p class="paper-meta">ICML 2024</p>
+      <h3>Transformers Get Stable: An End-to-End Signal Propagation Theory for Language Models</h3>
+      <p class="authors">Akhil Kedia*, <strong>Mohd Abbas Zaidi*</strong>, Sushil Khyalia*, Jungho Jung, Harshith Goka, Haejun Lee</p>
+      <img src="images/transformers-get-stable.svg" alt="Figure from the Transformers Get Stable paper" onerror="this.remove()">
+      <p class="desc">Transformers are hard to scale in depth: stack enough layers and training runs into vanishing or exploding gradients, rank collapse, and attention scores that saturate. We derive a unified theory for how the moments of the forward and backward signal evolve layer by layer through a transformer, which lets us pin down exactly where and why these failure modes appear. From that theory we build DeepScaleLM, an initialization and scaling scheme that keeps output and gradient moments constant with depth. It makes training genuinely deep transformers &mdash; up to 1000 layers &mdash; stable, and models trained this way outperform shallower ones with the same parameter count on language modeling, speech translation, and image classification.</p>
+      <p class="paper-links">
+        <a href="https://arxiv.org/abs/2403.09635">Paper (arXiv)</a>
+        <a href="https://proceedings.mlr.press/v235/kedia24a.html">ICML page</a>
+      </p>
+    </article>
+
+    <p class="current-focus"><strong>Currently:</strong> extending this line of work to distillation across teacher/student models with mismatched vocabularies.</p>
+  </section>
+
+  <section class="publications">
+    <h2>All publications</h2>
+    <ul class="pub-list">
+
+      <li class="pub">
+        <span class="pub-year">2025</span>
+        <span class="pub-thumb"><img src="images/sparse-logit-sampling-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs</h4>
+          <p class="authors">Anshumann*, <strong>M. A. Zaidi*</strong>, A. Kedia*, J. Ahn, T. Kwon, K. Lee, H. Lee, J. Lee</p>
+          <p class="venue">ACL 2025 (Oral)</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2503.16870">arXiv</a><a href="https://aclanthology.org/2025.acl-long.885/">ACL Anthology</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2024</span>
+        <span class="pub-thumb"><img src="images/transformers-get-stable-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Transformers Get Stable: An End-to-End Signal Propagation Theory for Language Models</h4>
+          <p class="authors">A. Kedia*, <strong>M. A. Zaidi*</strong>, S. Khyalia*, J. Jung, H. Goka, H. Lee</p>
+          <p class="venue">ICML 2024</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2403.09635">arXiv</a><a href="https://proceedings.mlr.press/v235/kedia24a.html">ICML</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <span class="pub-thumb"><img src="images/fie-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>FiE: Building a Global Probability Space by Leveraging Early Fusion in Encoder for Open-Domain Question Answering</h4>
+          <p class="authors">A. Kedia, <strong>M. A. Zaidi</strong>, H. Lee</p>
+          <p class="venue">EMNLP 2022</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2211.10147">arXiv</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <span class="pub-thumb"><img src="images/cross-modal-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Cross-Modal Decision Regularization for Simultaneous Speech Translation</h4>
+          <p class="authors"><strong>M. A. Zaidi*</strong>, B. Lee*, S. Kim, C. Kim</p>
+          <p class="venue">Interspeech 2022 (Oral)</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2110.15729">arXiv</a><a href="https://www.isca-speech.org/archive/interspeech_2022/zaidi22_interspeech.html">ISCA</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <span class="pub-thumb"><img src="images/monotonic-attention-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Infusing Future Information into Monotonic Attention Through Language Models</h4>
+          <p class="authors"><strong>M. A. Zaidi*</strong>, S. Indurthi*, B. Lee, N. Kumar, S. Kim</p>
+          <p class="venue">NAACL 2022</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2109.03121">arXiv</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2021</span>
+        <span class="pub-thumb"><img src="images/multi-task-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Task Aware Multi-Task Learning for Speech to Text Tasks</h4>
+          <p class="authors">S. Indurthi*, <strong>M. A. Zaidi*</strong>, N. Kumar, B. Lee, H. Han, S. Ahn, S. Kim, C. Kim, I. Hwang</p>
+          <p class="venue">ICASSP 2021</p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2021</span>
+        <span class="pub-thumb"><img src="images/re-translation-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Faster Re-translation Using Non-Autoregressive Model For Simultaneous Neural Machine Translation</h4>
+          <p class="authors">H. Han, S. Indurthi, <strong>M. A. Zaidi</strong>, N. Kumar, B. Lee, S. Kim, C. Kim, I. Hwang</p>
+          <p class="pub-links"><a href="https://arxiv.org/abs/2012.14681">arXiv</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2020</span>
+        <span class="pub-thumb"><img src="images/iwslt-e2e-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>End-to-End Simultaneous Translation System for IWSLT2020 Using Modality Agnostic Meta-Learning</h4>
+          <p class="authors">H. Han, <strong>M. A. Zaidi</strong>, S. Indurthi, N. Kumar, B. Lee, S. Kim</p>
+          <p class="venue">ACL-IWSLT 2020</p>
+          <p class="pub-links"><a href="https://www.aclweb.org/anthology/2020.iwslt-1.5.pdf">Paper</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2020</span>
+        <span class="pub-thumb"><img src="images/iwslt-offline-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>End-to-End Offline Speech Translation System for IWSLT 2020 Using Modality Agnostic Meta-Learning</h4>
+          <p class="authors">N. Kumar, B. Lee, S. Indurthi, H. Han, <strong>M. A. Zaidi</strong>, S. Kim</p>
+          <p class="venue">ACL-IWSLT 2020</p>
+          <p class="pub-links"><a href="https://www.aclweb.org/anthology/2020.iwslt-1.7.pdf">Paper</a></p>
+        </div>
+      </li>
+
+      <li class="pub">
+        <span class="pub-year">2020</span>
+        <span class="pub-thumb"><img src="images/tvsd-thumb.png" alt="" onerror="this.parentElement.remove()"></span>
+        <div class="pub-body">
+          <h4>Hierarchical Trellis Based Decoder for Total Variation Sequence Detection (TVSD) in Space-Time Trellis Coded (STTC) Wireless Image/Video Communication</h4>
+          <p class="authors">A. Kudeshia, <strong>M. A. Zaidi</strong>, A. Jagannatham, C. Prakash</p>
+          <p class="venue">IEEE Access</p>
+          <p class="pub-links"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9079801">Paper</a></p>
+        </div>
+      </li>
+
+    </ul>
+    <p style="font-family:'IBM Plex Sans',sans-serif;font-size:0.88rem;color:var(--muted);margin-top:1.2rem;">* equal contribution. Full list with citation counts on <a href="https://scholar.google.com/citations?user=i_cSaKgAAAAJ">Google Scholar</a>.</p>
+  </section>
+
+  <footer>
+    <p>Mohd Abbas Zaidi &middot; NLP Lab, Samsung Research, Seoul &middot; <a href="https://www.linkedin.com/in/mazaidi/">LinkedIn</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
